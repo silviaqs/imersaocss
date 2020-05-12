@@ -1,0 +1,39 @@
+/* Aula inicial :D */
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTF0EV4BZV8BqchxP9YKVJvXCsqljvqZ3tqIvOE-6A9vD9SiFMk&usqp=CAU');
+  background-size: auto 100vh;
+  font-family: Arial;
+  height: 100vh;
+}
+
+.menu {
+  background-color: white;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ff9999;
+}
+
+.site-subtitle,
+.site-title {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.site-subtitle {
+  font-style: italic;
+}
